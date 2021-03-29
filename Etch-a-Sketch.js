@@ -13,7 +13,7 @@ gridColor = document.querySelectorAll('.gridElement');
 
 gridColor.forEach(applyColor =>
     applyColor.addEventListener('mouseover', () => {
-    applyColor.style.background = ('green');
+    applyColor.style.background = ('black');
      })
     );
 
